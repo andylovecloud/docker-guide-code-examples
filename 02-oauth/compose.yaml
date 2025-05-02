@@ -6,7 +6,7 @@ services:
     container_name: ts-oauth-test
     hostname: oauth-test
     environment:
-      - TS_AUTHKEY=tskey-client-kwLoXj6CNTRL-vCLN9Ab8QYYoLSEM98riXYLnfmtej6Lh?ephemeral=true
+      - TS_AUTHKEY=tskey-client-kKHD6dYoRD11CNTRL-xVDeQUtfM77BAkm15wWG77QZSSwDyC4j?ephemeral=false
       - TS_EXTRA_ARGS=--advertise-tags=tag:container
       - TS_STATE_DIR=/var/lib/tailscale
       - TS_USERSPACE=false
